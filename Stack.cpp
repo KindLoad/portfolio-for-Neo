@@ -4,6 +4,7 @@
 using namespace std;
 
 template <typename T> class MyStack{
+    private:
     T *arr;
     int top, size;
 
