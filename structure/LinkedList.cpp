@@ -87,6 +87,7 @@ int main(int argc, char const *argv[])
     ml.printList();
     ml.Remove(2);
     ml.Add(15);
+    ml.Add(19);
     ml.printList();
     
     return 0;
