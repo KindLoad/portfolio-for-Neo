@@ -29,8 +29,7 @@ int main() {
 	recv(hClient, cBuffer, PACKET_SIZE, 0);
 	printf("Recv Msg : %s\n", cBuffer);
 
-	char cMsg[] = "Server Send";
-	send(hClient, cMsg, strlen(cMsg), 0);
+	send(hClient, cBuffer, strlen(cBuffer), 0);
 
 	closesocket(hClient);
 	closesocket(hListen);

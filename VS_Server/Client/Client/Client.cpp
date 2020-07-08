@@ -1,6 +1,7 @@
 ﻿
 #include <stdio.h>
 #include <WinSock2.h>
+#include <string>
 
 #pragma comment(lib, "ws2_32")
 
@@ -23,7 +24,9 @@ int main() {
 
 	connect(hSocket, (SOCKADDR*)&tAddr, sizeof(tAddr));
 
-	char cMsg[] = "Client Send";
+	char cMsg[100];
+
+	scanf("%[^\n]", cMsg);
 	send(hSocket, cMsg, strlen(cMsg), 0);
 
 	char cBuffer[PACKET_SIZE] = {};
