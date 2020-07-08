@@ -83,7 +83,7 @@ int main(void) {
     printf("Now Size() : %d\n", pq.size());
 
 
-    for(int i = 0 ; i < 5; i++){
+    for(int i = 0 ; i < 10; i++){
         pq.pop();
     }
 

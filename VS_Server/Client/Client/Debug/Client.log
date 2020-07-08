@@ -1,0 +1,3 @@
+﻿  Client.cpp
+C:\Users\klic\Desktop\Prac\Pot_Neo\VS_Server\Client\Client\Client.cpp(22,26): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  Client.vcxproj -> C:\Users\klic\Desktop\Prac\Pot_Neo\VS_Server\Client\Debug\Client.exe
