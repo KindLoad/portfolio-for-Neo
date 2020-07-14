@@ -1,0 +1,4 @@
+﻿  Chat_Multi_Server.cpp
+C:\Users\klic\Desktop\Prac\Pot_Neo\VS_Server\Chat_Multi_Server\Chat_Multi_Server\Chat_Multi_Server.cpp(63,37): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\klic\Desktop\Prac\Pot_Neo\VS_Server\Chat_Multi_Server\Chat_Multi_Server\Chat_Multi_Server.cpp(39,7): warning C4101: 'buf' :참조되지 않은 지역 변수입니다.
+  Chat_Multi_Server.vcxproj -> C:\Users\klic\Desktop\Prac\Pot_Neo\VS_Server\Chat_Multi_Server\Debug\Chat_Multi_Server.exe
